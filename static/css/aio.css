@@ -1,0 +1,209 @@
+.aio-dropdown-menu a {
+  color: #333;
+  transition: 0.3s;
+  position: relative;
+  font-size: 16px;
+}
+
+.aio-dropdown-menu a:before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  bottom: 6px;
+  width: 0;
+  height: 1px;
+  background: #008F28;
+  transition: 0.3s;
+}
+
+.aio-dropdown-menu a:hover {
+  background: transparent !important;
+  color: #008F28 !important;
+}
+
+.aio-dropdown-menu .aio-active a {
+  color: #008F28;
+}
+
+.aio-dropdown-menu .aio-active a:before{
+  width: 25px;
+}
+.aio-btn-success{
+  background-color: #fff;
+  color: #008F28;
+  border: 0.5px solid #008F28;
+}
+.aio-btn-success:hover{
+  background-color: #008F28;
+  color: #fff;
+  border: 0.5px solid #fff;
+}
+.aio-font-weight-bold{
+  font-weight: 500;
+}
+.aio-dropdown-menu a:hover:before {
+  width: 25px;
+}
+
+.dropdown-menu{
+  border-radius: 10px;
+}
+
+.aio-margin-table {
+  margin: 15px 15%;
+}
+
+.aio-btn-download{
+  border-radius: 20px;
+  background-color: #008F28;
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.aio-btn-download:hover{
+  background-color: #1db748;
+  color: #fff;
+}
+
+.aio-section {
+  padding: 50px 0;
+}
+
+p > .aio-statistik-digit {
+  font-weight: bold;
+  font-size: 34px;
+}
+
+h3 > .aio-price {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+
+.aio-box{
+  background-color: #E8E8E8;
+  padding: 25px;
+}
+.aio-line-center {
+  padding-bottom: 10px;
+  position: relative;
+}
+.aio-line-center::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  left: 25%;
+  border-top: 2px solid #008F28;
+}
+.aio-footer{
+  align-items: center;
+}
+.aio-p-10{
+  padding-top: 10px;
+}
+
+.aio-btn {
+  cursor: pointer;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: #008F28;
+   background-origin: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.aio-btn:hover {
+  color: #008F28;
+  background: #fff;
+  border: 0.5px solid #008F28 ;
+}
+
+.aio-badge-success{
+  background-color: #28a745;
+}
+.aio-badge-danger{
+  background-color: #dc3545;
+}
+.aio-p-6{
+  padding: 6px;
+}
+
+.aio-title {
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  line-height: 100%;
+}
+
+.aio-no-padding {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.aio-media-link{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.aio-media-link a i{
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.aio-slogan{
+  font-weight: bold;
+  font-family: 'Manrope', sans-serif;
+  font-size: 24px;
+}
+.aio-list{
+  font-weight: 500;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+}
+
+.aio-list-bidang{
+  font-weight: bold;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+}
+.aio-list-bidang ul>li{
+  margin: 20px 5px;
+  display: flex;
+}
+
+.aio-list-bidang ul>li img{
+  width: 30px;
+  margin: 0 15px;
+}
+
+
+.aio-text-red{
+  color: #d20000;
+}
+
+.aio-text-green{
+  color: #008F28;
+}
+
+.aio-mt-10{
+  margin-top: 10px;
+}
+.aio-mt-50{
+  margin-top: 50px;
+}
