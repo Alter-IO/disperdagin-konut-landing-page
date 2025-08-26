@@ -6,8 +6,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="title">
-                                <h3>IKM Olahan Kakao Naik Produksi</h3>
-                                <small>By Admin / 20 Agustus 2024</small>
+                                <h3>Pemda Konawe Utara Gelar Pasar Murah di Kecamatan Sawa</h3>
                             </div>
                         </div>
                     </div>
@@ -21,41 +20,35 @@
                         <div class="col-md-8 col-md-offset-0 col-sm-10 col-sm-offset-1">
                             <div class="blog-img row">
                                 <div class="col-md-12">
-                                    <img class="img-responsive" src="@/static/img/blog/blog-2.jpg"
-                                        alt="IKM Olahan Kakao" />
+                                    <img class="img-responsive" src="@/public/img/berita_2.jpg"
+                                        alt="Pemda Konawe Utara Gelar Pasar Murah di Kecamatan Sawa" />
                                 </div>
                             </div>
                             <div class="block">
-                                <span class="first-child-span">
-                                    Industri Kecil dan Menengah (IKM) Konawe Utara menunjukkan peningkatan signifikan
-                                    dalam produksi <b>olahan kakao</b> pada tahun 2024.
-                                </span>
-
-                                <p class="first-child">
-                                    Peningkatan ini didorong oleh dukungan pemerintah daerah melalui pelatihan, bantuan
-                                    peralatan, dan fasilitasi pemasaran produk.
-                                    Produk olahan kakao seperti cokelat batangan, bubuk kakao, dan minuman siap saji
-                                    kini semakin dikenal di pasar lokal maupun luar daerah.
-                                </p>
-
-                                <blockquote>
-                                    <p>
-                                        "Kami berharap IKM berbasis kakao dapat menjadi salah satu tulang punggung
-                                        ekonomi daerah sekaligus meningkatkan nilai tambah bagi petani."
-                                    </p>
-                                    <div class="footer">Kepala Dinas Perdagangan & Perindustrian Konawe Utara</div>
-                                </blockquote>
-
                                 <p>
-                                    Data menunjukkan bahwa kapasitas produksi IKM olahan kakao meningkat hingga 30%
-                                    dibandingkan tahun sebelumnya.
-                                    Selain itu, beberapa pelaku usaha telah berhasil menembus pasar regional dengan
-                                    membawa identitas lokal Konawe Utara.
-                                </p>
+                                    Guna menekan angka kemiskinan ekstrim, stunting dan inflasi, Dinas Perindustrian dan
+                                    Perdagangan (Disperindag) Kabupaten Konawe Utara baru-baru ini, menggelar pasar
+                                    murah di Kecamatan Sawa, dibuka oleh Bupati Konut Ruksamin
 
-                                <p>
-                                    Pemerintah terus berkomitmen memberikan dukungan agar olahan kakao Konawe Utara
-                                    mampu bersaing di pasar nasional dan internasional.
+                                    Bupati Konut Ruksamin menjelaskan, pasar murah ini digelar di seluruh kecamatan
+                                    terdiri 13 kecamatan se Konawe Utara yang sebelumnya juga telah dilaksanakan di
+                                    Kecamatan Andowia, Lasolo, Molawe, Wawolesea, Lembo, dan kini di Kecamatan Sawa.
+
+                                    Dalam kesempatan itu, Ruksamin juga menyerahkan bantuan 100 paket sembako kepada
+                                    masyarakat, sekaligus berharap pelaksanaan pasar murah ini dapat menekan angka
+                                    kemiskinan ekstrim, stunting dan inflasi.
+
+                                    “Pemda akan terus melakukan kegiatan pasar murah ini sebagai upaya mengantisipasi
+                                    terjadinya inflasi akibat musim kemarau,”ungkap Ruksamin.
+
+                                    Ruksamin juga mengimbau para kepala desa, agar mengarahkan masyarakatnya untuk
+                                    pemanfaatkan lahan pekarangan dengan menanam tanaman yang cocok dimusim kemarau.
+
+                                    Sementara itu, Kadis Disperindag Konut, Jumadil menjelaskan, dalam kegiatan pasar
+                                    murah guna pengendalian inflasi serta stabilisasi harga barang kebutuhan pokok,
+                                    disiapkan yakni beras, telur, gula, tepung, susu, Indomie goreng, Indomie kaldu,
+                                    Intermie goreng, bawang merah dan bawang putih.
+
                                 </p>
 
                                 <div class="tags">
@@ -76,27 +69,22 @@
                                     <ul class="category-list">
                                         <li>
                                             <RouterLink class="items" to="/berita/1">
-                                                Pengembangan Pasar Asera
+                                                PEMDA Konawe Utara Resmikan Dua Pasar Rakyat untuk Dongkrak Ekonomi dan
+                                                Atasi Kemiskinan, Inflasi, serta Stunting
                                             </RouterLink>
                                             Kamis - 15 Agustus 2024
                                         </li>
                                         <li>
                                             <RouterLink class="items" to="/berita/2">
-                                                IKM Olahan Kakao Naik Produksi
+                                                PEMDA Konawe Utara Gelar Pasar Murah di Kecamatan Sawa
                                             </RouterLink>
                                             Senin - 10 Juli 2024
                                         </li>
                                         <li>
                                             <RouterLink class="items" to="/berita/3">
-                                                Gerakan Pangan Murah
+                                                PEMDA Konawe Utara Gelar Pasar Murah untuk Masyarakat
                                             </RouterLink>
                                             Rabu - 28 Juni 2024
-                                        </li>
-                                        <li>
-                                            <RouterLink class="items" to="/berita/4">
-                                                Pelatihan IKM Rumput Laut
-                                            </RouterLink>
-                                            Sabtu - 1 Juni 2024
                                         </li>
                                     </ul>
                                 </div>

@@ -6,8 +6,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="title">
-                                <h3>Gerakan Pangan Murah</h3>
-                                <small>By Admin / 5 September 2024</small>
+                                <h3>PEMDA Konawe Utara Gelar Pasar Murah untuk Masyarakat</h3>
                             </div>
                         </div>
                     </div>
@@ -21,40 +20,39 @@
                         <div class="col-md-8 col-md-offset-0 col-sm-10 col-sm-offset-1">
                             <div class="blog-img row">
                                 <div class="col-md-12">
-                                    <img class="img-responsive" src="@/static/img/blog/blog-3.jpg"
-                                        alt="Gerakan Pangan Murah" />
+                                    <img class="img-responsive" src="@/public/img/berita_3.jpg"
+                                        alt="PEMDA Konawe Utara Gelar Pasar Murah untuk Masyarakat" />
                                 </div>
                             </div>
                             <div class="block">
-                                <span class="first-child-span">
-                                    Pemerintah Daerah Konawe Utara melaksanakan <b>Gerakan Pangan Murah</b> untuk
-                                    membantu masyarakat menjaga daya beli di tengah kenaikan harga bahan pokok.
-                                </span>
-
-                                <p class="first-child">
-                                    Kegiatan ini dilaksanakan di beberapa kecamatan dengan menyediakan beras, minyak
-                                    goreng, gula pasir, dan kebutuhan pokok lainnya dengan harga yang lebih terjangkau.
-                                    Program ini merupakan bagian dari upaya stabilisasi pasokan dan harga pangan,
-                                    sekaligus mendukung kesejahteraan masyarakat.
-                                </p>
-
-                                <blockquote>
-                                    <p>
-                                        "Gerakan Pangan Murah diharapkan mampu meringankan beban masyarakat, khususnya
-                                        menjelang hari-hari besar keagamaan dan nasional."
-                                    </p>
-                                    <div class="footer">Bupati Konawe Utara</div>
-                                </blockquote>
-
                                 <p>
-                                    Antusiasme masyarakat terlihat tinggi dalam setiap pelaksanaan kegiatan.
-                                    Warga datang berbondong-bondong untuk membeli kebutuhan pokok dengan harga yang
-                                    lebih murah dibandingkan harga pasar.
-                                </p>
+                                    Dalam rangka menekan inflasi, Pemerintah Daerah (Pemda) Konawe Utara (Konut),
+                                    melalui Dinas Perindustrian dan Perdagangan (Disperindag) menggelar pasar murah.
+                                    Pasar murah yang dilaksanakan, diperuntukkan untuk masyarakat diwilayah itu, sebagai
+                                    upaya Pemerintah Konut menangani dan menekan inflasi.
+                                    Sekertaris Dinas (Sekdis) Disperindag Konut, Indra Thalib, mengatakan, program pasar
+                                    murah ini diselenggarakan di 13 kecamatan didaerah itu.
+                                    Menurut Indra Thalib, pasar murah yang digelar Pemda Konut menawarkan berbagai macam
+                                    kebutuhan sembilan 9 bahan pokok dengan harga dibawah harga pasar pada umumnya.
+                                    “Seperti beras 10 kilo gram, harga pasar Rp130 ribu, pasar murah dijual seharga Rp90
+                                    ribu,”ungkap Indra Thalib.
+                                    Pasar murah Disperindag Konut ini, terbuka untuk umum, dengan menyediakan stok
+                                    sembako tidak terbatas untuk memenuhi kebutuhan masyarakat.
+                                    “Pasar murah sejauh ini telah dilaksanakan pada 4 kecamatan diantaranya, Kecamatan
+                                    Andowia, Lasolo, Molawe dan Wawolesea,”jelas Indra.
+                                    Untuk bisa mendapatkan kebutuhan yang diinginkan dalam pasar murah itu, masyarakat
+                                    cukup mengambil kupon sesuai jenis sembako kemudian membeli sesuai jenisnya.
+                                    Terpisah, Wakil Bupati Konut, Abu Haera mengungkapkan, pasar murah yang digelar
+                                    tersebut, merupakan wujud visi misi Konasara untuk memberikan pelayanan kepada
+                                    masyarakat, terutama dalam penanganan inflasi.
+                                    Menurutnya, pelayanan pemerintah tersebut, tidak hanya khususnya pada penanganan
+                                    inflasi, tetapi juga untuk menurunkan angka stunting dan kemiskinan ekstrim dengan
+                                    maksimalkan program yang bersentuhan langsung kepada masyarakat.
+                                    Program pasar murah tersebut, juga melibatkan, jajaran Polres Konut, Kodim Konut dan
+                                    Forkopimda yang dirangkaikan pembagian sembako gratis untuk 100 kepala keluarga
+                                    kategori program kemiskinan ekstrim.
 
-                                <p>
-                                    Pemerintah berkomitmen melanjutkan program ini secara berkelanjutan agar ketahanan
-                                    pangan daerah tetap terjaga dan inflasi terkendali.
+
                                 </p>
 
                                 <div class="tags">
@@ -75,27 +73,22 @@
                                     <ul class="category-list">
                                         <li>
                                             <RouterLink class="items" to="/berita/1">
-                                                Pengembangan Pasar Asera
+                                                PEMDA Konawe Utara Resmikan Dua Pasar Rakyat untuk Dongkrak Ekonomi dan
+                                                Atasi Kemiskinan, Inflasi, serta Stunting
                                             </RouterLink>
                                             Kamis - 15 Agustus 2024
                                         </li>
                                         <li>
                                             <RouterLink class="items" to="/berita/2">
-                                                IKM Olahan Kakao Naik Produksi
+                                                PEMDA Konawe Utara Gelar Pasar Murah di Kecamatan Sawa
                                             </RouterLink>
                                             Senin - 10 Juli 2024
                                         </li>
                                         <li>
                                             <RouterLink class="items" to="/berita/3">
-                                                Gerakan Pangan Murah
+                                                PEMDA Konawe Utara Gelar Pasar Murah untuk Masyarakat
                                             </RouterLink>
                                             Rabu - 28 Juni 2024
-                                        </li>
-                                        <li>
-                                            <RouterLink class="items" to="/berita/4">
-                                                Pelatihan IKM Rumput Laut
-                                            </RouterLink>
-                                            Sabtu - 1 Juni 2024
                                         </li>
                                     </ul>
                                 </div>

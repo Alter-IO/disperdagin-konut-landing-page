@@ -432,16 +432,17 @@ onMounted(fetchStatistics)
                   <!-- Berita 1 -->
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="block">
-                      <img src="@/static/img/blog/blog-1.jpg" alt="Pengembangan Pasar Asera"
+                      <img src="@/public/img/berita_1.jpg"
+                        alt="PEMDA Konawe Utara Resmikan Dua Pasar Rakyat untuk Dongkrak Ekonomi dan Atasi Kemiskinan, Inflasi, serta Stunting"
                         class="img img-responsive aio-no-padding">
                       <div class="content">
                         <h4>
-                          <NuxtLink to="/berita/1">Pengembangan Pasar Asera</NuxtLink>
+                          <NuxtLink to="/berita/1">PEMDA Konawe Utara Resmikan Dua Pasar Rakyat untuk Dongkrak Ekonomi
+                            dan Atasi Kemiskinan, Inflasi, serta Stunting</NuxtLink>
                         </h4>
                         <small>By admin / Aug 26, 2025</small>
                         <p>
-                          Dinas Perdagangan dan Perindustrian Konawe Utara melakukan pengembangan pasar Asera untuk
-                          meningkatkan ...
+                          Menghadapi tantangan dunia kedepan seperti inflasi...
                         </p>
                         <NuxtLink to="/berita/1" class="btn btn-read">Read More</NuxtLink>
                       </div>
@@ -451,16 +452,15 @@ onMounted(fetchStatistics)
                   <!-- Berita 2 -->
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="block">
-                      <img src="@/static/img/blog/blog-2.jpg" alt="IKM Olahan Kakao Naik Produksi"
+                      <img src="@/public/img/berita_2.jpg" alt="PEMDA Konawe Utara Gelar Pasar Murah di Kecamatan Sawa"
                         class="img img-responsive aio-no-padding">
                       <div class="content">
                         <h4>
-                          <NuxtLink to="/berita/2">IKM Olahan Kakao Naik Produksi</NuxtLink>
+                          <NuxtLink to="/berita/2">PEMDA Konawe Utara Gelar Pasar Murah di Kecamatan Sawa</NuxtLink>
                         </h4>
                         <small>By admin / Aug 20, 2025</small>
                         <p>
-                          Industri kecil menengah (IKM) olahan kakao di Konawe Utara mengalami peningkatan produksi
-                          berkat dukungan ...
+                          Guna menekan angka kemiskinan ekstrim...
                         </p>
                         <NuxtLink to="/berita/2" class="btn btn-read">Read More</NuxtLink>
                       </div>
@@ -470,16 +470,15 @@ onMounted(fetchStatistics)
                   <!-- Berita 3 -->
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="block">
-                      <img src="@/static/img/blog/blog-3.jpg" alt="Gerakan Pangan Murah"
+                      <img src="@/public/img/berita_3.jpg" alt="PEMDA Konawe Utara Gelar Pasar Murah untuk Masyarakat"
                         class="img img-responsive aio-no-padding">
                       <div class="content">
                         <h4>
-                          <NuxtLink to="/berita/3">Gerakan Pangan Murah</NuxtLink>
+                          <NuxtLink to="/berita/3">PEMDA Konawe Utara Gelar Pasar Murah untuk Masyarakat</NuxtLink>
                         </h4>
                         <small>By admin / Aug 15, 2025</small>
                         <p>
-                          Program Gerakan Pangan Murah berhasil menekan harga kebutuhan pokok di pasar lokal Konawe
-                          Utara sehingga masyarakat ...
+                          Dalam rangka menekan inflasi, Pemerintah Daerah (Pemda) Konawe Utara (Konut)...
                         </p>
                         <NuxtLink to="/berita/3" class="btn btn-read">Read More</NuxtLink>
                       </div>

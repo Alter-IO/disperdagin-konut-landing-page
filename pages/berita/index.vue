@@ -56,35 +56,27 @@ interface Berita {
 const beritaList = ref<Berita[]>([
   {
     id: 1,
-    title: "Pengembangan Pasar Asera",
+    title: "PEMDA Konawe Utara Resmikan Dua Pasar Rakyat untuk Dongkrak Ekonomi dan Atasi Kemiskinan, Inflasi, serta Stunting",
     author: "Admin",
     date: "2024-08-15T09:00:00Z",
-    image: "/img/blog/blog-1.jpg",
-    content: "Pemkab Konawe Utara meresmikan pemanfaatan kembali Pasar Asera..."
+    image: "/img/berita_1.jpg",
+    content: "Menghadapi tantangan dunia kedepan seperti inflasi..."
   },
   {
     id: 2,
-    title: "IKM Olahan Kakao Naik Produksi",
+    title: "PEMDA Konawe Utara Gelar Pasar Murah di Kecamatan Sawa",
     author: "Admin",
     date: "2024-08-20T10:30:00Z",
-    image: "/img/blog/blog-2.jpg",
-    content: "Produk IKM berbasis kakao dari Kecamatan Andowia mulai dipasarkan..."
+    image: "/img/berita_2.jpg",
+    content: "Guna menekan angka kemiskinan ekstrim..."
   },
   {
     id: 3,
-    title: "Gerakan Pangan Murah",
+    title: "PEMDA Konawe Utara Gelar Pasar Murah untuk Masyarakat",
     author: "Disperindag",
     date: "2024-09-01T12:00:00Z",
-    image: "/img/blog/blog-3.jpg",
-    content: "Polres Konawe Utara bekerjasama dengan Disperindag menggelar pasar murah..."
-  },
-  {
-    id: 4,
-    title: "Pelatihan IKM Rumput Laut",
-    author: "Dinas Perindustrian",
-    date: "2024-09-05T14:00:00Z",
-    image: "/img/blog/blog-4.jpg",
-    content: "Pelatihan diberikan untuk meningkatkan kualitas olahan rumput laut..."
+    image: "/img/berita_3.jpg",
+    content: "Dalam rangka menekan inflasi, Pemerintah Daerah (Pemda) Konawe Utara (Konut)..."
   },
 ])
 
