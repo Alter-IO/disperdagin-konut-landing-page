@@ -16,7 +16,7 @@
           <div class="row">
             <div class="col-md-12 col-xs-12 col-sm-12">
               <div class="feature-block text-center">
-                <img src="@/static/img/struktur-organisasi.svg" alt="" class="img img-responsive aio-no-padding wow fadeInUp" data-wow-delay=".5s">
+                <img src="/img/struktur-organisasi.svg" alt="" class="img img-responsive aio-no-padding wow fadeInUp" data-wow-delay=".5s">
               </div>
             </div>
           </div>

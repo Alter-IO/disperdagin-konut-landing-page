@@ -19,19 +19,19 @@
                 <div class="wow fadeInUp aio-list-bidang" data-wow-delay=".5s">
                   <ul>
                     <li>
-                      <img src="@/static/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
+                      <img src="/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
                       <span>Bidang Perindustrian</span>
                     </li>
                     <li>
-                      <img src="@/static/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
+                      <img src="/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
                       <span>Bidang Perdagangan</span>
                     </li>
                     <li>
-                      <img src="@/static/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
+                      <img src="/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
                       <span>Bidang Pengelolaan Pasar</span>
                     </li>
                     <li>
-                      <img src="@/static/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
+                      <img src="/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
                       <span>Bidang Kemetrologian</span>
                     </li>
                   </ul>

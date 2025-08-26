@@ -16,7 +16,7 @@
                 <a href="#"><i class="fa fa-google-plus"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
               </div>
-              <!-- <a href="#"><img src="@/static/img/logo-dinas.png" alt=""></a> -->
+              <!-- <a href="#"><img src="/img/logo-dinas.png" alt=""></a> -->
               <p>©2022</p>
             </div>
           </div>

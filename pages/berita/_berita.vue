@@ -20,7 +20,7 @@
               <div class="col-md-8 col-md-offset-0 col-sm-10 col-sm-offset-1">
                 <div class="blog-img row">
                   <div class="col-md-12">
-                    <img class="img-responsive" src="@/static/img/blog-details-img2.jpg" alt="">
+                    <img class="img-responsive" src="/img/blog-details-img2.jpg" alt="">
                   </div>
                 </div>
                 <div class="block">

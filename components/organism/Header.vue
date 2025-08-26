@@ -13,7 +13,7 @@
 
           <!-- logo -->
           <h1 class="navbar-brand">
-            <a href="#body"><img :src="require('@/static/img/logo-header.png')" height="41" width="100%" alt=""></a>
+            <a href="#body"><img src="/img/logo-header.png" height="41" width="100%" alt=""></a>
           </h1>
           <!-- /logo -->
         </div>
@@ -22,9 +22,9 @@
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
           <ul id="nav" class="nav navbar-nav menu">
             <li class="active">
-              <NuxtLink to="/login">
+              <!-- <NuxtLink to="/login">
                 Login
-              </NuxtLink>
+              </NuxtLink> -->
             </li>
             <li :class="uri_segment == 'index' ? 'active' : ''">
               <NuxtLink to="/">

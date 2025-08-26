@@ -1,3 +1,61 @@
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
+import Banner from '../components/atoms/Banner.vue'
+
+// This is equivalent to your data() in the Options API
+const baseAsset = ref('/img/work2.jpg')
+
+const statistics = ref({
+  total_subdistricts: 0,
+  total_villages: 0,
+  total_ikms: 0,
+  total_markets: 0,
+  total_commodities: 0
+})
+
+const isLoading = ref(true)
+const hasError = ref(false)
+
+const config = useRuntimeConfig()
+const baseUrl = config.public.apiUrl
+
+const fetchStatistics = async () => {
+  try {
+    isLoading.value = true
+    
+    // Fetch data from API endpoint
+    const response = await $fetch(`${baseUrl}/home/statistic`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+
+    if (response && response.data) {
+      statistics.value = response.data
+    }
+
+    // Update statistics with response data
+    hasError.value = false
+  } catch (error) {
+    console.error('Failed to fetch statistics:', error)
+    hasError.value = true
+
+    statistics.value = {
+      total_subdistricts: 0,
+      total_villages: 0,
+      total_ikms: 0,
+      total_markets: 0,
+      total_commodities: 0
+    }
+  } finally {
+    isLoading.value = false
+  }
+}
+
+onMounted(fetchStatistics)
+</script>
+
 <template>
   <div class="wrapper">
     <Banner />
@@ -70,42 +128,58 @@
             <div class="title">
               <h2>STATISTIK</h2>
               <p>
-                Berikut beberapa tampilan data Jumlah Kecamatan, Jumlah Pasar dan Jumlah Komoditi<br/>
-                yang ada di Kabupaten Konawe Utara
+                Berikut data statistik yang ada di Kabupaten Konawe Utara
               </p>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
+            
+            <!-- Loading indicator -->
+            <div v-if="isLoading" class="col-md-12 text-center">
+              <p>Sedang memuat data statistik...</p>
+            </div>
+            
+            <!-- Error notification (hidden by default) -->
+            <div v-if="hasError" class="col-md-12">
+              <div class="alert alert-warning">
+                Terjadi masalah saat memuat data. Menampilkan data default.
+              </div>
+            </div>
+            
+            <!-- Statistics display -->
+            <div v-if="!isLoading" class="col-md-3 col-sm-6 col-xs-6">
               <div class="block wow fadeInRight" data-wow-delay=".3s">
                 <i class="ion-code"></i>
                 <p class="aio-statistik-text">
-                  <span class="aio-statistik-digit">13 </span>
+                  <span class="aio-statistik-digit">{{ statistics.total_subdistricts }}</span>
                 </p>
                 <p>Jumlah Kecamatan</p>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
+            
+            <div v-if="!isLoading" class="col-md-3 col-sm-6 col-xs-6">
               <div class="block wow fadeInRight" data-wow-delay=".3s">
                 <i class="ion-code"></i>
                 <p class="aio-statistik-text">
-                  <span class="aio-statistik-digit">13 </span>
+                  <span class="aio-statistik-digit">{{ statistics.total_ikms }}</span>
                 </p>
                 <p>Jumlah IKM</p>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
+            
+            <div v-if="!isLoading" class="col-md-3 col-sm-6 col-xs-6">
               <div class="block wow fadeInRight" data-wow-delay=".5s">
                 <i class="ion-compass"></i>
                 <p class="aio-statistik-text">
-                  <span class="aio-statistik-digit">25 </span> +
+                  <span class="aio-statistik-digit">{{ statistics.total_markets }} +</span> 
                 </p>
                 <p>Jumlah Pasar</p>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
+            
+            <div v-if="!isLoading" class="col-md-3 col-sm-6 col-xs-6">
               <div class="block wow fadeInRight" data-wow-delay=".7s">
                 <i class="ion-compose"></i>
                 <p class="aio-statistik-text">
-                  <span class="aio-statistik-digit">30</span>
+                  <span class="aio-statistik-digit">{{ statistics.total_commodities }}</span>
                 </p>
                 <p>Jumlah Komoditi</p>
               </div>
@@ -129,7 +203,7 @@
                   <ul id="mixed-items">
                     <li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                        <img class="img-responsive" src="@/static/img/work1.jpg" alt="">
+                        <img class="img-responsive" src="/img/work1.jpg" alt="">
                         <div class="overlay">
                           <h3>
                             Jagung <br>
@@ -141,7 +215,7 @@
                     </li>
                     <li class="mix category-2 col-md-4 col-xs-6" data-my-order="2">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                        <img class="img-responsive" src="@/static/img/work2.jpg" alt="">
+                        <img class="img-responsive" src="/img/work2.jpg" alt="">
                         <div class="overlay">
                           <h3>
                             Jagung <br>
@@ -153,7 +227,7 @@
                     </li>
                     <li class="mix category-1 col-md-4 col-xs-6" data-my-order="3">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                        <img class="img-responsive" src="@/static/img/work3.jpg" alt="">
+                        <img class="img-responsive" src="/img/work3.jpg" alt="">
                         <div class="overlay">
                           <h3>
                             Jagung <br>
@@ -165,7 +239,7 @@
                     </li>
                     <li class="mix category-2 col-md-4 col-xs-6" data-my-order="4">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                        <img class="img-responsive" src="@/static/img/work4.jpg" alt="">
+                        <img class="img-responsive" src="/img/work4.jpg" alt="">
                         <div class="overlay">
                           <h3>
                             Jagung <br>
@@ -177,7 +251,7 @@
                     </li>
                     <li class="mix category-1 col-md-4 col-xs-6" data-my-order="5">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                        <img class="img-responsive" src="@/static/img/work5.jpg" alt="">
+                        <img class="img-responsive" src="/img/work5.jpg" alt="">
                         <div class="overlay">
                           <h3>
                             Jagung <br>
@@ -189,7 +263,7 @@
                     </li>
                     <li class="mix category-2 col-md-4 col-xs-6" data-my-order="6">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                        <img class="img-responsive" src="@/static/img/work6.jpg" alt="">
+                        <img class="img-responsive" src="/img/work6.jpg" alt="">
                         <div class="overlay">
                           <h3>
                             Jagung <br>
@@ -229,7 +303,7 @@
               <div class="media wow fadeInLeft" data-wow-delay=".3s">
                 <div class="media-left">
                   <a href="javascript:void(0);">
-                    <!-- <img :src="require('@/static/img/service-img.png')" alt=""> -->
+                    <img src="/img/service-img.png" alt="">
                   </a>
                 </div>
                 <div class="media-body">
@@ -247,7 +321,7 @@
               <div class="media wow fadeInLeft" data-wow-delay=".3s">
                 <div class="media-left">
                   <a href="javascript:void(0);">
-                    <img src="@/static/img/service-img.png" alt="">
+                    <img src="/img/service-img.png" alt="">
                   </a>
                 </div>
                 <div class="media-body">
@@ -265,7 +339,7 @@
               <div class="media wow fadeInRight" data-wow-delay=".3s">
                 <div class="media-left">
                   <a href="javascript:void(0);">
-                    <img src="@/static/img/service-img.png" alt="">
+                    <img src="/img/service-img.png" alt="">
                   </a>
                 </div>
                 <div class="media-body">
@@ -283,7 +357,7 @@
               <div class="media wow fadeInLeft" data-wow-delay=".3s">
                 <div class="media-left">
                   <a href="javascript:void(0);">
-                    <img src="@/static/img/service-img.png" alt="">
+                    <img src="/img/service-img.png" alt="">
                   </a>
                 </div>
                 <div class="media-body">
@@ -301,7 +375,7 @@
               <div class="media wow fadeInRight" data-wow-delay=".3s">
                 <div class="media-left">
                   <a href="javascript:void(0);">
-                    <img src="@/static/img/service-img.png" alt="">
+                    <img src="/img/service-img.png" alt="">
                   </a>
                 </div>
                 <div class="media-body">
@@ -344,7 +418,7 @@
                 <div class="row">
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="block">
-                      <img src="@/static/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
+                      <img src="/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
                       <div class="content">
                         <h4><NuxtLink to="/berita/1">Hey,This is a blog title</NuxtLink></h4>
                         <small>By admin / Sept 18, 2014</small>
@@ -359,7 +433,7 @@
                   </div>
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="block">
-                      <img src="@/static/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
+                      <img src="/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
                       <div class="content">
                         <h4><NuxtLink to="/berita/2">Hey,This is a blog title</NuxtLink></h4>
                         <small>By admin / Sept 18, 2014</small>
@@ -374,7 +448,7 @@
                   </div>
                   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="block">
-                      <img src="@/static/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
+                      <img src="/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
                       <div class="content">
                         <h4><NuxtLink to="/berita/3">Hey,This is a blog title</NuxtLink></h4>
                         <small>By admin / Sept 18, 2014</small>
@@ -422,17 +496,3 @@
     </div>
   </div>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  data(): any {
-    return {
-      baseAsset: '@/static/img/work2.jpg'
-    }
-  },
-  mounted(): any {
-  }
-})
-</script>

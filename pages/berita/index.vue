@@ -15,7 +15,7 @@
                 <div class="row">
                   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="block">
-                      <img src="@/static/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
+                      <img src="/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
                       <div class="content">
                         <h4><a href="blog.html">Hey,This is a blog title</a></h4>
                         <small>By admin / Sept 18, 2014</small>
@@ -25,7 +25,7 @@
                   </div>
                   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="block">
-                      <img src="@/static/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
+                      <img src="/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
                       <div class="content">
                         <h4><a href="blog.html">Hey,This is a blog title</a></h4>
                         <small>By admin / Sept 18, 2014</small>
@@ -35,7 +35,7 @@
                   </div>
                   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="block">
-                      <img src="@/static/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
+                      <img src="/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
                       <div class="content">
                         <h4><a href="blog.html">Hey,This is a blog title</a></h4>
                         <small>By admin / Sept 18, 2014</small>
@@ -45,7 +45,7 @@
                   </div>
                   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="block">
-                      <img src="@/static/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
+                      <img src="/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding">
                       <div class="content">
                         <h4><a href="blog.html">Hey,This is a blog title</a></h4>
                         <small>By admin / Sept 18, 2014</small>
