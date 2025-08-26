@@ -18,7 +18,9 @@
                   <i class="ion-easel"></i>
                 </div>
                 <p class="wow fadeInUp aio-slogan" data-wow-delay=".5s">
-                  <span class="aio-text-green">KO</span>NAWE UTAR<span class="aio-text-green">A</span> YANG LEBIH <span class="aio-text-green">SE</span>JAHTER<span class="aio-text-green">A</span> DAN BERDAYA S<span class="aio-text-green">A</span>ING
+                  <span class="aio-text-green">KO</span>NAWE UTAR<span class="aio-text-green">A</span> YANG LEBIH <span
+                    class="aio-text-green">SE</span>JAHTER<span class="aio-text-green">A</span> DAN BERDAYA S<span
+                    class="aio-text-green">A</span>ING
                 </p>
                 <p class="wow fadeInUp aio-slogan aio-mt-10" data-wow-delay=".5s">
                   <span class="aio-text-red">KONASARA II</span>
@@ -44,10 +46,13 @@
                   <ol>
                     <li>Meningkatkan kualitas dan daya saing sumberdaya manusia</li>
                     <li>Meningkatkan ketersediaan infrastruktur dasar dan sarana prasarana kawasan pemukiman</li>
-                    <li>Mewujudkan keadilan sosial dan nilai tambah dalam pengelolaan sumberdaya guna meningkatkan daya  saing ekonomi</li>
-                    <li>Mewujudkan tata kelola pemerintahan yang akuntabel, mendorong reformasi birokrasi, dan pelayanan publik yang prima</li>
+                    <li>Mewujudkan keadilan sosial dan nilai tambah dalam pengelolaan sumberdaya guna meningkatkan daya
+                      saing ekonomi</li>
+                    <li>Mewujudkan tata kelola pemerintahan yang akuntabel, mendorong reformasi birokrasi, dan pelayanan
+                      publik yang prima</li>
                     <li>Meningkatkan kualitas lingkungan hidup dan ketahanan bencana</li>
-                    <li>Membangun peradaban masyarakat yang bertumpu pada nilai-nilai keagamaan dan kebudayaan lokal</li>
+                    <li>Membangun peradaban masyarakat yang bertumpu pada nilai-nilai keagamaan dan kebudayaan lokal
+                    </li>
                   </ol>
                 </div>
               </div>

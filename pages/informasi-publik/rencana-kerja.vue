@@ -8,11 +8,13 @@
             <div class="col-md-12">
               <div class="title">
                 <h2>RENCANA KERJA</h2>
-                <p>Menampilkan Rencana-Rencana Kerja Dinas Perdagangan dan Perindustrian Konawe Utara 
+                <p>
+                  Menampilkan Rencana-Rencana Kerja Dinas Perdagangan dan Perindustrian Konawe Utara.
                 </p>
               </div>
             </div>
           </div>
+
           <div class="row">
             <div class="col-md-12">
               <div class="feature-block text-center aio-margin-table">
@@ -25,11 +27,13 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr v-for="data, index in dataTable" :key="index">
-                      <td>{{index + 1}}</td>
-                      <td>{{data.nama_dokumen}}</td>
+                    <tr v-for="(data, index) in dataTable" :key="index">
+                      <td class="text-center">{{ index + 1 }}</td>
+                      <td>{{ data.nama_dokumen }}</td>
                       <td class="text-center">
-                        <button class="btn aio-btn-download">Unduh</button>                        
+                        <a :href="data.url" class="btn aio-btn-download" target="_blank">
+                          Unduh
+                        </a>
                       </td>
                     </tr>
                   </tbody>
@@ -37,6 +41,7 @@
               </div>
             </div>
           </div>
+
         </div>
       </section>
     </div>
@@ -45,45 +50,21 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import Banner from "@/components/atoms/Banner.vue";
 
 export default defineComponent({
-  data(){
+  name: "RencanaKerja",
+  components: { Banner },
+  data() {
     return {
-      users: [],
       dataTable: [
-        {
-          nama_dokumen: 'dokumen 1',
-          url: '#'
-        },
-        {
-          nama_dokumen: 'dokumen 2',
-          url: '#'
-        },
-        {
-          nama_dokumen: 'dokumen 3',
-          url: '#'
-        },
-        {
-          nama_dokumen: 'dokumen 4',
-          url: '#'
-        },
-        {
-          nama_dokumen: 'dokumen 5',
-          url: '#'
-        },
+        { nama_dokumen: "Rencana Kerja Tahun 2024", url: "#" },
+        { nama_dokumen: "Rencana Kerja Triwulan 1", url: "#" },
+        { nama_dokumen: "Rencana Kerja Triwulan 2", url: "#" },
+        { nama_dokumen: "Rencana Kerja Triwulan 3", url: "#" },
+        { nama_dokumen: "Rencana Kerja Triwulan 4", url: "#" },
       ]
-    }
-  },
-  computed:{
-  },
-  mounted(){
-    // await this.$axios
-    // .get("https://therichpost.com/testjsonapi/users/")
-    // .then((res)=>
-    // {
-    //   this.users = res.data;
-    //   console.log(this.users);
-    // })
+    };
   }
-})
+});
 </script>

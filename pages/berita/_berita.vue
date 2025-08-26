@@ -1,58 +1,65 @@
 <template>
-  
-    <div class="wrapper">
-      <Banner />
-      <div class="aio-section">
-        <section id="berita">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="title">
-                  <h3>Berita {{ idBerita }}</h3>
-                </div>
+
+  <div class="wrapper">
+    <Banner />
+    <div class="aio-section">
+      <section id="berita">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="title">
+                <h3>Berita {{ idBerita }}</h3>
               </div>
             </div>
           </div>
-        </section>
-        <section id="blog-left">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-0 col-sm-10 col-sm-offset-1">
-                <div class="blog-img row">
-                  <div class="col-md-12">
-                    <img class="img-responsive" src="/img/blog-details-img2.jpg" alt="">
-                  </div>
+        </div>
+      </section>
+      <section id="blog-left">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-0 col-sm-10 col-sm-offset-1">
+              <div class="blog-img row">
+                <div class="col-md-12">
+                  <img class="img-responsive" src="@/static/img/blog-details-img2.jpg" alt="">
                 </div>
-                <div class="block">
-                  <span class="first-child-span">Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry.</span>
-                  <p class="first-child">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text
-                    of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is
-                    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                    dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the standard dummy text.</p>
-                  <blockquote>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                      industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing
-                      and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is simply dummy
-                      text.</p>
-                    <div class="footer">
-                      Jason Santa Maria
-                    </div>
-                  </blockquote>
-                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s.</span>
+              </div>
+              <div class="block">
+                <span class="first-child-span">Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry.</span>
+                <p class="first-child">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy
+                  text
+                  of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                  standard
+                  dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the standard dummy text.</p>
+                <blockquote>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is simply dummy text
-                    of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                    has been the standard dummy text.</p>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is simply dummy text
-                    of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                    industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the
+                    printing
+                    and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is simply dummy
+                    text.</p>
+                  <div class="footer">
+                    Jason Santa Maria
+                  </div>
+                </blockquote>
+                <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                  the
+                  industry's standard dummy text ever since the 1500s.</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing
+                  and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is simply dummy
+                  text
+                  of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                  since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum
+                  has been the standard dummy text.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing
+                  and typesetting industry. Lorem Ipsum has been the standard dummy text. Lorem Ipsum is simply dummy
+                  text
+                  of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
                   since the 1500s.</p><br>
                 <div class="tags">
                   <h5>Tags</h5>
@@ -80,14 +87,14 @@
         </div>
       </section>
     </div>
-    </div>
-    
+  </div>
+
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-export default defineComponent( {
+export default defineComponent({
   data(): any {
     return {
       idBerita: this.$route.params.berita

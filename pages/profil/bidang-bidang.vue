@@ -8,7 +8,7 @@
             <div class="col-md-12">
               <div class="title">
                 <h2>BIDANG-BIDANG</h2>
-                <p>Bidang-bidang yang ada pada  Dinas Perindustrian dan Perdagangan Konawe Utara
+                <p>Bidang-bidang yang ada pada Dinas Perindustrian dan Perdagangan Konawe Utara
                 </p>
               </div>
             </div>
@@ -19,19 +19,23 @@
                 <div class="wow fadeInUp aio-list-bidang" data-wow-delay=".5s">
                   <ul>
                     <li>
-                      <img src="/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
+                      <img src="@/static/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp"
+                        data-wow-delay=".5s">
                       <span>Bidang Perindustrian</span>
                     </li>
                     <li>
-                      <img src="/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
+                      <img src="@/static/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp"
+                        data-wow-delay=".5s">
                       <span>Bidang Perdagangan</span>
                     </li>
                     <li>
-                      <img src="/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
+                      <img src="@/static/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp"
+                        data-wow-delay=".5s">
                       <span>Bidang Pengelolaan Pasar</span>
                     </li>
                     <li>
-                      <img src="/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp" data-wow-delay=".5s">
+                      <img src="@/static/img/bidang-icon.svg" alt="" class="img img-responsive wow fadeInUp"
+                        data-wow-delay=".5s">
                       <span>Bidang Kemetrologian</span>
                     </li>
                   </ul>
