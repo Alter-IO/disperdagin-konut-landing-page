@@ -1,6 +1,6 @@
 <template>
     <div>
-      <section id="banner" v-if="$route.name=='index'">
+      <section id="banner" v-if="route.name=='index'">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -34,10 +34,6 @@
 </template>
 
 
-<script lang="ts">
-export default{
-  mounted():any{
-    console.log()
-  }
-}
+<script setup lang="ts">
+const route = useRoute()
 </script>

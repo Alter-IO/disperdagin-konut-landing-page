@@ -22,17 +22,7 @@ export default defineNuxtConfig({
   
   // Explicitly define aliases
   alias: {
-    '@': '/<rootDir>',
-    '~': '/<rootDir>'
-  },
-  
-  // Vite configuration for better module resolution
-  vite: {
-    resolve: {
-      alias: {
-        '@': '/<rootDir>',
-        '~': '/<rootDir>'
-      }
-    }
+    '@': './',
+    '~': './'
   }
 })
