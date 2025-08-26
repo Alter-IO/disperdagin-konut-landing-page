@@ -59,10 +59,6 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'SambutanPage'
-})
+<script setup lang="ts">
+// Nuxt 3 Composition API setup
 </script>

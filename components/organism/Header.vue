@@ -1,7 +1,7 @@
 <template lang="">
-    <header id="navigation" class="navbar-fixed-top animated-header">
-      <div class="container">
-        <div class="navbar-header">
+  <header id="navigation" class="navbar-fixed-top animated-header">
+    <div class="container">
+      <div class="navbar-header">
           <!-- responsive nav button -->
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -21,61 +21,56 @@
         <!-- main nav -->
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
           <ul id="nav" class="nav navbar-nav menu">
-            <li class="active">
-              <!-- <NuxtLink to="/login">
-                Login
-              </NuxtLink> -->
-            </li>
             <li :class="uri_segment == 'index' ? 'active' : ''">
-              <NuxtLink to="/">
+              <a href="/" @click.prevent="navigateTo('/')">
                 Home
-              </NuxtLink>
+              </a>
             </li>
             <li class="dropdown" :class="uri_segment == 'profil' ? 'active' : ''">
-              <NuxtLink to="#" class="dropdown-toggle" data-toggle="dropdown">Profil <b class="caret"></b></NuxtLink>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profil <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="aio-dropdown-menu"><NuxtLink to="/profil/sambutan">Sambutan</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/profil/visi-misi">Visi Misi</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/profil/struktur-organisasi">Struktur Organisasi</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/profil/bidang-bidang">Bidang-bidang</NuxtLink></li>
+                <li class="aio-dropdown-menu"><a href="/profil/sambutan" @click.prevent="navigateTo('/profil/sambutan')">Sambutan</a></li>
+                <li class="aio-dropdown-menu"><a href="/profil/visi-misi" @click.prevent="navigateTo('/profil/visi-misi')">Visi Misi</a></li>
+                <li class="aio-dropdown-menu"><a href="/profil/struktur-organisasi" @click.prevent="navigateTo('/profil/struktur-organisasi')">Struktur Organisasi</a></li>
+                <li class="aio-dropdown-menu"><a href="/profil/bidang-bidang" @click.prevent="navigateTo('/profil/bidang-bidang')">Bidang-bidang</a></li>
               </ul>
             </li>
             <li class="dropdown" :class="uri_segment == 'statistik' ? 'active' : ''">
-              <NuxtLink to="#" class="dropdown-toggle" data-toggle="dropdown">Statistik <b class="caret"></b></NuxtLink>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Statistik <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="aio-dropdown-menu"><NuxtLink to="/statistik/komoditi">Komoditi</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/statistik/ikm">IKM</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/statistik/lokasi-pasar">Lokasi Pasar</NuxtLink></li>
+                <li class="aio-dropdown-menu"><a href="/statistik/komoditi" @click.prevent="navigateTo('/statistik/komoditi')">Komoditi</a></li>
+                <li class="aio-dropdown-menu"><a href="/statistik/ikm" @click.prevent="navigateTo('/statistik/ikm')">IKM</a></li>
+                <li class="aio-dropdown-menu"><a href="/statistik/lokasi-pasar" @click.prevent="navigateTo('/statistik/lokasi-pasar')">Lokasi Pasar</a></li>
               </ul>
             </li>
             <li :class="uri_segment == 'berita' ? 'active' : ''">
-              <NuxtLink to="/berita">
+              <a href="/berita" @click.prevent="navigateTo('/berita')">
                 Berita
-              </NuxtLink>
+              </a>
             </li>
             <li class="dropdown" :class="uri_segment == 'informasi' ? 'active' : ''">
-              <NuxtLink to="#" class="dropdown-toggle" data-toggle="dropdown">Informasi Publik <b class="caret"></b></NuxtLink>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Informasi Publik <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="aio-dropdown-menu"><NuxtLink to="/informasi-publik/laporan-akuntansi">Laporan Akuntansi</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/informasi-publik/rencana-strategis">Rencana Strategis</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/informasi-publik/rencana-kerja">Rencana Kerja</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/informasi-publik/indikator-kinerja-utama">Indikator Kinerja Utama</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/informasi-publik/perjanjian-kerja">Perjanjian Kerja</NuxtLink></li>
+                <li class="aio-dropdown-menu"><a href="/informasi-publik/laporan-akuntansi" @click.prevent="navigateTo('/informasi-publik/laporan-akuntansi')">Laporan Akuntansi</a></li>
+                <li class="aio-dropdown-menu"><a href="/informasi-publik/rencana-strategis" @click.prevent="navigateTo('/informasi-publik/rencana-strategis')">Rencana Strategis</a></li>
+                <li class="aio-dropdown-menu"><a href="/informasi-publik/rencana-kerja" @click.prevent="navigateTo('/informasi-publik/rencana-kerja')">Rencana Kerja</a></li>
+                <li class="aio-dropdown-menu"><a href="/informasi-publik/indikator-kinerja-utama" @click.prevent="navigateTo('/informasi-publik/indikator-kinerja-utama')">Indikator Kinerja Utama</a></li>
+                <li class="aio-dropdown-menu"><a href="/informasi-publik/perjanjian-kerja" @click.prevent="navigateTo('/informasi-publik/perjanjian-kerja')">Perjanjian Kerja</a></li>
               </ul>
             </li>
             <li class="dropdown" :class="uri_segment == 'produk' ? 'active' : ''">
-              <NuxtLink to="#" class="dropdown-toggle" data-toggle="dropdown">Produk Hukum <b class="caret"></b></NuxtLink>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Produk Hukum <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="aio-dropdown-menu"><NuxtLink to="/produk-hukum/peraturan-daerah">Peraturan Daerah</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/produk-hukum/peraturan-bupati">Rencana Bupati</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/produk-hukum/peraturan-kepala-skpd">Peraturan Kepala SKPD</NuxtLink></li>
+                <li class="aio-dropdown-menu"><a href="/produk-hukum/peraturan-daerah" @click.prevent="navigateTo('/produk-hukum/peraturan-daerah')">Peraturan Daerah</a></li>
+                <li class="aio-dropdown-menu"><a href="/produk-hukum/peraturan-bupati" @click.prevent="navigateTo('/produk-hukum/peraturan-bupati')">Rencana Bupati</a></li>
+                <li class="aio-dropdown-menu"><a href="/produk-hukum/peraturan-kepala-skpd" @click.prevent="navigateTo('/produk-hukum/peraturan-kepala-skpd')">Peraturan Kepala SKPD</a></li>
               </ul>
             </li>
             <li class="dropdown" :class="uri_segment == 'galeri' ? 'active' : ''">
-              <NuxtLink to="#" class="dropdown-toggle" data-toggle="dropdown">Galeri <b class="caret"></b></NuxtLink>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Galeri <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="aio-dropdown-menu"><NuxtLink to="/galeri/foto">Foto</NuxtLink></li>
-                <li class="aio-dropdown-menu"><NuxtLink to="/galeri/video">Video</NuxtLink></li>
+                <li class="aio-dropdown-menu"><a href="/galeri/foto" @click.prevent="navigateTo('/galeri/foto')">Foto</a></li>
+                <li class="aio-dropdown-menu"><a href="/galeri/video" @click.prevent="navigateTo('/galeri/video')">Video</a></li>
               </ul>
             </li>
           </ul>
@@ -86,14 +81,17 @@
     </header>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
+import { computed } from 'vue'
 
-export default defineComponent({
-  computed: {
-    uri_segment() {
-      return this.$route.name?.split('-')[0];
-    }
-  }
+const route = useRoute()
+const router = useRouter()
+
+const uri_segment = computed(() => {
+  return route.name?.toString().split('-')[0] || ''
 })
+
+const navigateTo = (path: string) => {
+  router.push(path)
+}
 </script>

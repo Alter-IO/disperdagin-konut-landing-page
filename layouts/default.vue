@@ -20,18 +20,18 @@ useHead({
     { rel: 'stylesheet', href: '/css/aio.css' }
   ],
   script: [
-    { src: '/js/jquery-1.11.3.min.js', body: true },
-    { src: '/js/bootstrap.min.js', body: true },
-    { src: '/js/waypoints.min.js', body: true },
-    { src: '/js/lightbox.js', body: true },
-    { src: '/js/jquery.counterup.min.js', body: true },
-    { src: '/js/owl.carousel.min.js', body: true },
-    { src: '/js/html5lightbox.js', body: true },
-    { src: '/js/jquery.mixitup.js', body: true },
-    { src: '/js/wow.min.js', body: true },
-    { src: '/js/jquery.sticky.js', body: true },
-    { src: '/js/jquery.nav.js', body: true },
-    { src: '/js/main.js', body: true }
+    { src: '/js/jquery-1.11.3.min.js' },
+    { src: '/js/bootstrap.min.js' },
+    { src: '/js/waypoints.min.js' },
+    { src: '/js/lightbox.js' },
+    { src: '/js/jquery.counterup.min.js' },
+    { src: '/js/owl.carousel.min.js' },
+    { src: '/js/html5lightbox.js' },
+    { src: '/js/jquery.mixitup.js' },
+    { src: '/js/wow.min.js' },
+    { src: '/js/jquery.sticky.js' },
+    { src: '/js/jquery.nav.js' },
+    { src: '/js/main.js' }
   ]
 })
 </script>
