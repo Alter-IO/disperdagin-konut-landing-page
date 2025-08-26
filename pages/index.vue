@@ -210,7 +210,7 @@ onMounted(fetchStatistics)
                   <ul id="mixed-items">
                     <li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                      <img class="img-responsive" src="/img/work1.jpg" alt="">
+                      <img class="img-responsive" src="@/public/img/komoditi/KOMODITI_JAGUNG.png" alt="">
                       <div class="overlay">
                         <h3>
                           Jagung <br>
@@ -222,11 +222,11 @@ onMounted(fetchStatistics)
                     </li>
                     <li class="mix category-2 col-md-4 col-xs-6" data-my-order="2">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                      <img class="img-responsive" src="/img/work2.jpg" alt="">
+                      <img class="img-responsive" src="@/public/img/komoditi/KOMODITI_BAWANG_BOMBAY.png" alt="">
                       <div class="overlay">
                         <h3>
-                          Jagung <br>
-                          <span class="aio-price">25.000</span>
+                          Bawang Bombay<br>
+                          <span class="aio-price">20.000</span>
                         </h3>
                         <i class="ion-ios-plus-empty"></i>
                       </div>
@@ -234,11 +234,11 @@ onMounted(fetchStatistics)
                     </li>
                     <li class="mix category-1 col-md-4 col-xs-6" data-my-order="3">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                      <img class="img-responsive" src="/img/work3.jpg" alt="">
+                      <img class="img-responsive" src="@/public/img/komoditi/KOMODITI_BERAS.png" alt="">
                       <div class="overlay">
                         <h3>
-                          Jagung <br>
-                          <span class="aio-price">25.000</span>
+                          Beras <br>
+                          <span class="aio-price">15.000</span>
                         </h3>
                         <i class="ion-ios-plus-empty"></i>
                       </div>
@@ -246,11 +246,11 @@ onMounted(fetchStatistics)
                     </li>
                     <li class="mix category-2 col-md-4 col-xs-6" data-my-order="4">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                      <img class="img-responsive" src="/img/work4.jpg" alt="">
+                      <img class="img-responsive" src="@/public/img/komoditi/KOMODITI_CABAI.png" alt="">
                       <div class="overlay">
                         <h3>
-                          Jagung <br>
-                          <span class="aio-price">25.000</span>
+                          Cabai <br>
+                          <span class="aio-price">13.000</span>
                         </h3>
                         <i class="ion-ios-plus-empty"></i>
                       </div>
@@ -258,11 +258,11 @@ onMounted(fetchStatistics)
                     </li>
                     <li class="mix category-1 col-md-4 col-xs-6" data-my-order="5">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                      <img class="img-responsive" src="/img/work5.jpg" alt="">
+                      <img class="img-responsive" src="@/public/img/komoditi/KOMODITI_DAGING_AYAM.png" alt="">
                       <div class="overlay">
                         <h3>
-                          Jagung <br>
-                          <span class="aio-price">25.000</span>
+                          Daging Ayam <br>
+                          <span class="aio-price">30.000</span>
                         </h3>
                         <i class="ion-ios-plus-empty"></i>
                       </div>
@@ -270,11 +270,11 @@ onMounted(fetchStatistics)
                     </li>
                     <li class="mix category-2 col-md-4 col-xs-6" data-my-order="6">
                       <!-- <a class="example-image-link" href="#" data-lightbox="example-set"> -->
-                      <img class="img-responsive" src="/img/work6.jpg" alt="">
+                      <img class="img-responsive" src="@/public/img/komoditi/KOMODITI_GULA_PASIR.png" alt="">
                       <div class="overlay">
                         <h3>
-                          Jagung <br>
-                          <span class="aio-price">25.000</span>
+                          Gula Pasir <br>
+                          <span class="aio-price">12.000</span>
                         </h3>
                         <i class="ion-ios-plus-empty"></i>
                       </div>
