@@ -311,18 +311,14 @@ onMounted(fetchStatistics)
               <div class="media wow fadeInLeft" data-wow-delay=".3s">
                 <div class="media-left">
                   <a href="javascript:void(0);">
-                    <img src="/img/service-img.png" alt="">
+                    <img src="/img/avatar-wa.png" alt="">
                   </a>
                 </div>
                 <div class="media-body">
                   <a href="javascript:void(0);">
-                    <h3 class="media-heading">xJonathon Andrew</h3>
+                    <h3 class="media-heading">Jumadin, S.Sos</h3>
                     <h5 class="media-heading">Kepala Dinas Perindustrian dan Perdagangan</h5>
                   </a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commo</p>
                 </div>
               </div>
             </div>
@@ -330,18 +326,14 @@ onMounted(fetchStatistics)
               <div class="media wow fadeInLeft" data-wow-delay=".3s">
                 <div class="media-left">
                   <a href="javascript:void(0);">
-                    <img src="/img/service-img.png" alt="">
+                    <img src="/img/avatar-wa.png" alt="">
                   </a>
                 </div>
                 <div class="media-body">
                   <a href="javascript:void(0);">
-                    <h3 class="media-heading">Jonathon Andrew</h3>
+                    <h3 class="media-heading">Sri Helmiati, S.T., MM</h3>
                     <h5 class="media-heading">Kepala Bidang Pengelolaan Pasar</h5>
                   </a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commo</p>
                 </div>
               </div>
             </div>
@@ -349,18 +341,14 @@ onMounted(fetchStatistics)
               <div class="media wow fadeInRight" data-wow-delay=".3s">
                 <div class="media-left">
                   <a href="javascript:void(0);">
-                    <img src="/img/service-img.png" alt="">
+                    <img src="/img/avatar-wa.png" alt="">
                   </a>
                 </div>
                 <div class="media-body">
                   <a href="javascript:void(0);">
-                    <h3 class="media-heading">Jonathon Andrew</h3>
+                    <h3 class="media-heading">Ir. Muh. Yamin, S.T</h3>
                     <h5 class="media-heading">Kepala Bidang Perdagangan</h5>
                   </a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commo</p>
                 </div>
               </div>
             </div>
@@ -368,18 +356,14 @@ onMounted(fetchStatistics)
               <div class="media wow fadeInLeft" data-wow-delay=".3s">
                 <div class="media-left">
                   <a href="javascript:void(0);">
-                    <img src="/img/service-img.png" alt="">
+                    <img src="/img/avatar-wa.png" alt="">
                   </a>
                 </div>
                 <div class="media-body">
                   <a href="javascript:void(0);">
-                    <h3 class="media-heading">Jonathon Andrew</h3>
+                    <h3 class="media-heading">Ir. Nasrullah, S.T</h3>
                     <h5 class="media-heading">Kepala Bidang Kemetrologian</h5>
                   </a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commo</p>
                 </div>
               </div>
             </div>
@@ -387,18 +371,14 @@ onMounted(fetchStatistics)
               <div class="media wow fadeInRight" data-wow-delay=".3s">
                 <div class="media-left">
                   <a href="javascript:void(0);">
-                    <img src="/img/service-img.png" alt="">
+                    <img src="/img/avatar-wa.png" alt="">
                   </a>
                 </div>
                 <div class="media-body">
                   <a href="javascript:void(0);">
-                    <h3 class="media-heading">Jonathon Andrew</h3>
-                    <h5 class="media-heading">Kepala Bidang Kemetrologian</h5>
+                    <h3 class="media-heading">Neneng Trianayunita, SE</h3>
+                    <h5 class="media-heading">Kepala Bidang Perindustrian</h5>
                   </a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commo</p>
                 </div>
               </div>
             </div>
