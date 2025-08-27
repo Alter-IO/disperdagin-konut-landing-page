@@ -51,11 +51,9 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import Banner from "@/components/atoms/Banner.vue";
 
 export default defineComponent({
   name: "IndikatorKinerjaUtama",
-  components: { Banner },
   data() {
     return {
       dataTable: [

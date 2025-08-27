@@ -48,11 +48,9 @@
 </template>
 
 <script lang="ts">
-import Banner from '@/components/atoms/Banner.vue'
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  components: { Banner },
   data() {
     return {
       users: [],

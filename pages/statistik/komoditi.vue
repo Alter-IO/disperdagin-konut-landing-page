@@ -55,10 +55,8 @@
 
 <script lang="ts">
 import { defineComponent } from "vue"
-import Banner from '@/components/atoms/Banner.vue'
 
 export default defineComponent({
-  components: { Banner },
   data() {
     return {
       dataKomoditi: [
