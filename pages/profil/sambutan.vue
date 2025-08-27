@@ -14,7 +14,7 @@
           <div class="row">
             <div class="col-md-4 col-xs-4 col-sm-4">
               <div class="feature-block text-center">
-                <img src="@/static/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding wow fadeInUp"
+                <img src="@/public/img/blog/blog-1.jpg" alt="" class="img img-responsive aio-no-padding wow fadeInUp"
                   data-wow-delay=".5s">
               </div>
             </div>
