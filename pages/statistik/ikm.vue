@@ -7,7 +7,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="title">
-                <h2>IKM BELUM FIX</h2>
+                <h2>IKM</h2>
                 <p>Dantes remained confused and silent by this explanation of the <br> thoughts which had unconsciously
                 </p>
               </div>
